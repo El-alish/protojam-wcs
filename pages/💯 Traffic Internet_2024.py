@@ -38,7 +38,7 @@ with tab1:
 with tab2:
     st.write("Sur les 15 sites les plus visités en Mars 2024 en France, 2 sites sont des sites lié à la culture Japonaise cumulant 257 Millions de visites en un mois")
     # Sort the dataframe by popularity and select the top 15
-    top_10_popular = df.sort_values(by='Description catégorie', ascending=False).head(15)
+    top_10_popular = df.sort_values(by='Description catégorie', ascending=True).head(15)
     
     # Create a bar chart with different colors for each bar
     fig3 = px.bar(top_10_popular, x='Visites', y='Description catégorie',
