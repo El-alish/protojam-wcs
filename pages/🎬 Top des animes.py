@@ -13,7 +13,7 @@ st.header('Des graphiques', divider='rainbow')
 with st.sidebar:
     #st.image('https://media4.giphy.com/media/PqcBU8T4SeuO3kOMVu/giphy.gif?cid=ecf05e47ayiowxuub1416x1q3ttwa8hrcpfhbje9g2ivq1m1&ep=v1_gifs_related&rid=giphy.gif&ct=g')
     st.image('https://cdn.discordapp.com/attachments/1210594061346672687/1240680856251531425/Designer_2.jpeg?ex=66477196&is=66462016&hm=e3ca395793ea5a222f3e435c5ad402ad2da2ac848b448384a441ccfe357b5947&')
-df = pd.read_csv('https://github.com/El-alish/protojam-wcs/blob/main/anime-filtered.csv', sep=',')
+df = pd.read_csv('https://github.com/El-alish/protojam-wcs/blob/main/anime-filtered.csv', sep=';', on_bad_lines='skip')
 
 #st.dataframe(df, use_container_width=True, hide_index=True, column_order=['Name', 'Score', 'English Name', 'Type', 'Episodes', 'Ranked', 'Rating', 'Genres.1'])
 # Count the number of anime titles by type
