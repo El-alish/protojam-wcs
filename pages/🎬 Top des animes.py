@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import plotly.figure_factory as ff
-
-
 from wordcloud import WordCloud
 from langdetect import detect
 from datetime import datetime
