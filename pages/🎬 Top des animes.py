@@ -7,7 +7,6 @@ import plotly.offline as pyo
 from wordcloud import WordCloud
 from langdetect import detect
 from datetime import datetime
-from plotly.offline import init_notebook_mode, iplot
 pyo.init_notebook_mode()
 
 st.set_page_config(layout="wide")
