@@ -41,7 +41,7 @@ with tab2:
     top_10_popular = df.sort_values(by='Description catégorie', ascending=True).head(15)
     
     # Create a bar chart with different colors for each bar
-    fig3 = px.bar(top_10_popular, x='Domaine', y='Description catégorie',
+    fig3 = px.bar(top_10_popular, x='Description catégorie', y='Visites',
                             title='Top des catégories les plus visités en Mars 2024 en France',
                  color = 'Visites',
                  width=800, height=800)
