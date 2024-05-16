@@ -43,7 +43,7 @@ with tab2:
     # Create a bar chart with different colors for each bar
     fig3 = px.bar(top_10_popular, x='Visites', y='Catégories',
                             title='Top 15 des catégories les plus visités en Mars 2024 en France',
-                 color = 'Catégories',
+                 color = 'Visites',
                  width=800, height=800)
     fig3.update_layout(showlegend=False)
     # Note:- Less the popularity no. is more popular is the anime.
