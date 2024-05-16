@@ -36,4 +36,4 @@ with tab1:
     st.plotly_chart(fig3, use_container_width=False)
 
 with tab2:
-    
+    st.write('hello')
