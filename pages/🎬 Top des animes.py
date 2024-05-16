@@ -6,7 +6,7 @@ from wordcloud import WordCloud
 from langdetect import detect
 from datetime import datetime
 from plotly.offline import init_notebook_mode, iplot
-init_notebook_mode(connected=False)
+init_notebook_mode(connected=True)
 
 st.set_page_config(layout="wide")
 st.header('Des graphiques', divider='rainbow')
