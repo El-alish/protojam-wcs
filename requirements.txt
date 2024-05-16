@@ -1,7 +1,7 @@
 streamlit
 openai
 pandas
-matplotlib
+matplotlib.pyplot
 time
 streamlit.components.v1
 numpy
