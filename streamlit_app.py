@@ -1,9 +1,4 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import time
-import streamlit.components.v1 as components
+
 
 st.header('ProtoJam Wild Code School AFL', divider='rainbow')
 
