@@ -5,9 +5,6 @@ import time
 import streamlit.components.v1 as components
 import plotly.express as px
 import plotly.graph_objects as go  # for 3D plot visualization
-import plotly.figure_factory as ff
-from plotly.offline import init_notebook_mode, iplot
-init_notebook_mode(connected=True)
 
 from wordcloud import WordCloud
 from langdetect import detect
