@@ -103,7 +103,7 @@ fig5.show()
 
 st.plotly_chart(fig5, use_container_width=True)
 
-df_user = pd.read_csv('Protojam/user-filtered.csv', sep=';')
+df_user = pd.read_csv('user-filtered.csv', sep=';')
 
 # Distribution of gender
 # Count the occurrences of each gender
