@@ -36,4 +36,16 @@ with tab1:
     st.plotly_chart(fig3, use_container_width=False)
 
 with tab2:
-    st.write('hello')
+    st.write("Sur les 15 sites les plus visités en Mars 2024 en France, 2 sites sont des sites lié à la culture Japonaise cumulant 257 Millions de visites en un mois")
+    # Sort the dataframe by popularity and select the top 15
+    top_10_popular = df.sort_values(by='Description catégorie', ascending=False).head(15)
+    
+    # Create a bar chart with different colors for each bar
+    fig3 = px.bar(top_10_popular, x='Description catégorie', y='Domaine',
+                            title='Top 15 des catégories les plus visités en Mars 2024 en France',
+                 color='Domaine',
+                 width=800, height=800)
+    fig3.update_layout(showlegend=False)
+    # Note:- Less the popularity no. is more popular is the anime.
+    
+    st.plotly_chart(fig3, use_container_width=False)
