@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 import time
 import streamlit.components.v1 as components
-
+import plotly.express as px
+@st.experimental_memo
 st.header('ProtoJam Wild Code School AFL', divider='rainbow')
 
 with st.sidebar:
