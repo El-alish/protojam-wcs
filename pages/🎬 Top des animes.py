@@ -7,7 +7,7 @@ import plotly.offline as pyo
 from wordcloud import WordCloud
 from langdetect import detect
 from datetime import datetime
-pyo.init_notebook_mode()
+pyo.init_notebook_mode(connected=True)
 
 st.set_page_config(layout="wide")
 st.header('Des graphiques', divider='rainbow')
