@@ -4,7 +4,11 @@ import numpy as np
 import time
 import streamlit.components.v1 as components
 import plotly.express as px
-
+st.set_page_config(
+    page_title="ProtoJam ",
+    page_icon="⭐",
+    layout = "wide"
+)
 st.header('ProtoJam Wild Code School AFL', divider='rainbow')
 
 with st.sidebar:
