@@ -2,10 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import plotly.graph_objects as go  # for 3D plot visualization
-import plotly.figure_factory as ff
-from plotly.offline import init_notebook_mode, iplot
-init_notebook_mode(connected=True)
 
 from wordcloud import WordCloud
 from langdetect import detect
